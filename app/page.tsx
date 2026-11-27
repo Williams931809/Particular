@@ -1,5 +1,5 @@
-import BeatLab from './BeatLab';
 'use client';
+import BeatLab from './BeatLab';
 import {useRef,useState} from 'react';
 export default function Home(){
 const [recording,setRecording]=useState(false),[audio,setAudio]=useState(''),[name,setName]=useState(''),[messages,setMessages]=useState(['Producer: Welcome to Particular. Record or upload your freestyle.']),[draft,setDraft]=useState('');
