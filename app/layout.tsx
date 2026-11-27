@@ -1,0 +1,1 @@
+import type {ReactNode} from 'react'; import './style.css'; export const metadata={title:'Particular AI Music Studio'}; export default function Layout({children}:{children:ReactNode}){return <html><body>{children}</body></html>}
