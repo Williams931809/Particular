@@ -1,0 +1,1 @@
+export default {async fetch(request:Request){const url=new URL(request.url);return url.pathname==='/health'?Response.json({status:'ok',service:'particular'}):Response.json({error:'not found'},{status:404})}}
